@@ -1,11 +1,11 @@
 class stringUpper:
-    def get(self):
+    def set(self):
         self.str1 = ''
         self.str1 = str(input('Enter String: '))
         
-    def push(self):
+    def get(self):
         print(self.str1.upper())
     
 str1 = stringUpper() 
+str1.set()
 str1.get()
-str1.push()
